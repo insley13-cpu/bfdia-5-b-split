@@ -711,6 +711,7 @@ const charD = [
 	[15,50,0.1,20,0.8,true,1.9,1,true,6],
 	[25,25,0.1,20,0.8,true,1.7,1,true,6],
 	[30,540,10,20,0.4,true,0,1,true,3]
+	[60,120,1.2,30,0.7,true,0.2,1,false,3]
 ];
 
 const diaMouths = [
@@ -2961,7 +2962,7 @@ function drawMenu() {
 		drawNewGame2Button('NO', 815.9, 169.75, '#1a4d1a', menuNewGame2no);
 	} else {
 		drawMenu0Button('OPTIONS', 665.55, 259.1, false, menuOptions);
-		drawMenu0Button ('NEW SPLIT GAME', 665.55, 348.4, false, menuNewGame);
+		drawMenu0Button('NEW GAME', 665.55, 348.4, false, menuNewGame);
 	}
 	drawMenu0Button('CONTINUE GAME', 665.55, 393.05, levelProgress == 0, menuContGame);
 	drawMenu0Button('LEVEL CREATOR', 665.55, 437.7, false, menuLevelCreator);
